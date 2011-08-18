@@ -4,8 +4,10 @@
  */
 
 var express = require('express')
-var socketio = require('socket.io')
-var eyes = require('eyes')
+  , socketio = require('socket.io')
+  , eyes = require('eyes')
+  , backbone = require('backbone') 
+  , _ = require('underscore')
 
 
 
